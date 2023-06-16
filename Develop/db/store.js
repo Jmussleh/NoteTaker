@@ -3,7 +3,7 @@ const util = require('util');
 const fs = require('fs');
 
 // This package will be used to generate ids
-const uuidv1 = require('uuid/v1');
+const { v1: uuidv1 } = require('uuid');
 
 //Used to read and write files asynchronously
 const readFileAsync = util.promisify(fs.readFile);
@@ -40,7 +40,7 @@ class Store {
 
     const newNote = { title, text, id: uuidv1() };
 
-    return this.getNotes()
+    return this.readNotes()
       .then((notes) => [...notes, newNote])
       .then((updateNotes) => this.write(updateNotes))
       .then(() => newNote);
