@@ -5,7 +5,7 @@ This 5-day weather forecast app is an application that provides users with up-to
 Type the desired city in the search bar. When you click search it will populate that day's weather and the following 5 days. After you search a city, it will make a button so that you can go back and see the weather for each city you have previously searched. 
 
 ## Screenshot of application
-<img title="Note Taker" alt="Screenshot of Note Taker App" src="Develop\public\assets\notetakerscreenshot.png">
+<img title="Note Taker" alt="Screenshot of Note Taker App" src="public\assets\notetakerscreenshot.png">
 
 ## Link to live site
-
+https://jmussleh.github.io/NoteTaker/
