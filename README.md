@@ -7,4 +7,6 @@ The Note Taker App provides a simple and intuitive interface for efficient note-
 <img title="Note Taker" alt="Screenshot of Note Taker App" src="public\assets\notetakerscreenshot.png">
 
 ## Link to live site
-https://jmussleh.github.io/NoteTaker/
+https://limitless-crag-38685-01bede9d7c52.herokuapp.com/
+
+
