@@ -1,8 +1,7 @@
 # Note Taker
 
 ## Description
-This 5-day weather forecast app is an application that provides users with up-to-date information about the weather conditions for the next five days. The app includes the temperature, wind speed, and humidity levels for each day. This app also includes the weather for the current day. 
-Type the desired city in the search bar. When you click search it will populate that day's weather and the following 5 days. After you search a city, it will make a button so that you can go back and see the weather for each city you have previously searched. 
+The Note Taker App provides a simple and intuitive interface for efficient note-taking. Upon opening the application, users are greeted with a landing page featuring a link to the notes page. Clicking on the link directs users to a page where existing notes are listed in the left-hand column. The right-hand column provides empty fields to enter a new note title and its corresponding text. Upon entering a new note, a Save icon appears in the navigation at the top of the page. Clicking on the Save icon saves the new note, which then appears in the left-hand column alongside other existing notes. Clicking on an existing note in the list displays it in the right-hand column. Additionally, users can click on the Write icon in the navigation to access empty fields for creating a new note.
 
 ## Screenshot of application
 <img title="Note Taker" alt="Screenshot of Note Taker App" src="public\assets\notetakerscreenshot.png">
