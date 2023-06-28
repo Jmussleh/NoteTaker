@@ -1,6 +1,6 @@
 const express = require('express');
 const apiRoutes = require('./routes/apiRoutes');
-const htmlRoutes = require('./routes/htmlRoutes');
+const htmlRoutes = require("./routes/htmlRoutes");
 
 // Initialize the app and create a port
 const app = express();
@@ -15,3 +15,6 @@ app.use('/', htmlRoutes);
 
 // Start the server on the port
 app.listen(PORT, () => console.log(`Listening on PORT: ${PORT}`));
+
+
+//Server.js
